@@ -129,7 +129,7 @@ git branch 'new branch name'
 ```sh
 git checkout 'branch name'  
 ```
-- change branch name : 
+- change branch name  
 ```sh
 git branch -m old-branch-name new-branch-name
  ```
@@ -138,7 +138,7 @@ git branch -m old-branch-name new-branch-name
 git push origin -u new-branch-name
  ```
 
-- merge two branch (master with temp): 
+- merge two branch (master with temp)
 ```sh
 git checkout master
  ``` 
