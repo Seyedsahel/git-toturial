@@ -129,10 +129,19 @@ git branch 'new branch name'
 ```sh
 git checkout 'branch name'  
 ```
+- change branch name : 
+```sh
+git branch -m old-branch-name new-branch-name
+ ```
+  ***if you use git hub too, you should push changes to git hub.*** 
+ ```sh
+git push origin -u new-branch-name
+ ```
+
 - merge two branch (master with temp): 
 ```sh
 git checkout master
- ```
+ ``` 
 ```sh
 git merge temp
 ```
