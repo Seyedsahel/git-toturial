@@ -49,6 +49,11 @@ git add 'file name to track'
 git commit -m "message"
 ```
 
+- Co-Authored Commit
+```sh
+ git commit -m "message" -m "Co-authored-by: username <email@gmail.com>"
+```
+
 4- 3 command on github page : for start with git hub too
 - every commit (change a file in an available repo ***modified(M)*** ) 
 
